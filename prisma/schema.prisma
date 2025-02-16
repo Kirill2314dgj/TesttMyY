@@ -1,0 +1,8 @@
+// Move the schema file to the prisma directory
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ... (rest of the schema remains the same)
+
